@@ -15,9 +15,15 @@ const Navbar = () => {
         />
       </div>
       <div className="m-8 flex items-center justify-between gap-4">
-        <FaLinkedin className="text-4xl mx-2" />
-        <FaGithub className="text-4xl mx-2" />
-        <FaHackerrank className="text-4xl mx-2" />
+        <a href="https://www.linkedin.com/in/ashen-wijesinghe-18329a264/">
+          <FaLinkedin className="text-4xl mx-2" />
+        </a>
+        <a href="https://github.com/Ashen06C">
+          <FaGithub className="text-4xl mx-2" />
+        </a>
+        <a href="https://www.hackerrank.com/profile/ashencharanga99">
+          <FaHackerrank className="text-4xl mx-2" />
+        </a>
       </div>
     </nav>
   );
