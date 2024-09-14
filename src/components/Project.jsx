@@ -49,7 +49,7 @@ const Project = () => {
           </div>
           <div class="mt-4">
             <a
-              href="#"
+              href="https://github.com/orgs/Expense-Tracker-System/repositories"
               class="text-[#72e9ff] text-sm font-semibold hover:underline flex items-center"
             >
               View Source Code{" "}
@@ -172,7 +172,7 @@ const Project = () => {
           {/* View Source Code Link */}
           <div class="mt-4">
             <a
-              href="#"
+              href="https://github.com/ChathuraIshara/CarromApp"
               class="text-[#72e9ff] text-sm font-semibold hover:underline flex items-center"
             >
               View Source Code{" "}

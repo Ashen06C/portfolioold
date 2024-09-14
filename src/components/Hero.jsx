@@ -15,11 +15,13 @@ const Hero = () => {
             </span>
           </div>
           <div className="py-8 sm:pl-4 ">
-            <button className="px-1   py-1 w-full sm:w-fit lg:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3">
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download Resume
-              </span>
-            </button>
+            <a href="https://drive.google.com/file/d/1sCcbrFLnnp56PiIA6KFaHXGA5s9x-GP0/view?usp=sharing">
+              <button className="px-1   py-1 w-full sm:w-fit lg:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3">
+                <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                  Download Resume
+                </span>
+              </button>
+            </a>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:pb-10">
