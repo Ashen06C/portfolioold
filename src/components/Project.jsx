@@ -4,7 +4,19 @@ import Portfolio from "../assets/my.png";
 import Carrom from "../assets/carrom.png";
 import Saloon from "../assets/saloon.png";
 import Bottle from "../assets/bottlemachine.jfif";
-import { FaReact, FaNodeJs, FaHtml5, FaCss3, FaJs } from "react-icons/fa";
+import {
+  RiReactjsLine,
+  RiNextjsLine,
+  RiTailwindCssFill,
+} from "react-icons/ri";
+import {
+  SiMui,
+  SiAppwrite,
+  SiDotnet,
+  SiMicrosoftsqlserver,
+  SiArduino
+  
+} from "react-icons/si";
 
 const Project = () => {
   return (
@@ -69,16 +81,10 @@ const Project = () => {
           </div>
           {/* Tech Stack Icons */}
           <div class="flex space-x-2 mt-4">
-            <img
-              src="https://via.placeholder.com/30"
-              alt="Next.js Icon"
-              class="h-8 w-8"
-            />
-            <img
-              src="https://via.placeholder.com/30"
-              alt="TailwindCSS Icon"
-              class="h-8 w-8"
-            />
+            <RiReactjsLine className="text-3xl text-cyan-600" />
+            <SiDotnet className="text-3xl text-blue-600" />
+            <SiMicrosoftsqlserver className="text-3xl text-white" />
+            <SiMui className="text-3xl text-white" />
           </div>
         </div>
 
@@ -128,16 +134,8 @@ const Project = () => {
           </div>
           {/* Tech Stack Icons */}
           <div class="flex space-x-2 mt-4">
-            <img
-              src="https://via.placeholder.com/30"
-              alt="Next.js Icon"
-              class="h-8 w-8"
-            />
-            <img
-              src="https://via.placeholder.com/30"
-              alt="TailwindCSS Icon"
-              class="h-8 w-8"
-            />
+            <RiReactjsLine className="text-3xl text-cyan-600" />
+            <RiTailwindCssFill className="text-3xl text-blue-400" />
           </div>
         </div>
         {/* Another Project Card */}
@@ -192,16 +190,9 @@ const Project = () => {
           </div>
           {/* Tech Stack Icons */}
           <div class="flex space-x-2 mt-4">
-            <img
-              src="https://via.placeholder.com/30"
-              alt="Next.js Icon"
-              class="h-8 w-8"
-            />
-            <img
-              src="https://via.placeholder.com/30"
-              alt="TailwindCSS Icon"
-              class="h-8 w-8"
-            />
+            <RiReactjsLine className="text-3xl text-cyan-600" />
+            <RiTailwindCssFill className="text-3xl text-blue-400" />
+            <SiAppwrite className="text-3xl text-red-500" />
           </div>
         </div>
         <div class="w-full sm:w-1/3 bg-[#0d0f20] rounded-lg shadow-lg p-6 text-white transition-transform transform hover:scale-105 hover:shadow-xl">
@@ -256,16 +247,8 @@ const Project = () => {
           </div>
           {/* Tech Stack Icons */}
           <div class="flex space-x-2 mt-4">
-            <img
-              src="https://via.placeholder.com/30"
-              alt="Next.js Icon"
-              class="h-8 w-8"
-            />
-            <img
-              src="https://via.placeholder.com/30"
-              alt="TailwindCSS Icon"
-              class="h-8 w-8"
-            />
+            <RiNextjsLine className="text-3xl text-white" />
+            <RiTailwindCssFill className="text-3xl text-blue-400" />
           </div>
         </div>
         {/* Another Project Card */}
@@ -296,11 +279,7 @@ const Project = () => {
           </div>
           {/* Tech Stack Icons */}
           <div class="flex space-x-2 mt-4">
-            <img
-              src="https://via.placeholder.com/30"
-              alt="Next.js Icon"
-              class="h-8 w-8"
-            />
+            <SiArduino className="text-3xl text-cyan-600" />
           </div>
         </div>
       </div>
