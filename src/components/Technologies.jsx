@@ -22,7 +22,7 @@ import { FaGitAlt } from "react-icons/fa";
 const Technologies = () => {
   return (
     <div className="border-b border-neutral-900 pb-12 pl-5">
-      <h1 className="font-semibold text-center text-4xl ">Tecnologies</h1>
+      <h1 className="font-semibold text-center text-4xl ">Technologies</h1>
       <div className="pt-10">
         <div className="font-semibold text-3xl pb-8">
           Front-End Technologies
