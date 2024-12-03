@@ -18,6 +18,7 @@ import {
   SiC,
 } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
+import { BiLogoTypescript } from "react-icons/bi";
 
 const Technologies = () => {
   return (
@@ -50,6 +51,14 @@ const Technologies = () => {
             </div>
             <div>
               <p className="text-lg">JavaScript</p>
+            </div>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="">
+              <BiLogoTypescript  className="text-5xl text-blue-600" />
+            </div>
+            <div>
+              <p className="text-lg">TypeScript</p>
             </div>
           </div>
           <div className="flex flex-col items-center">
