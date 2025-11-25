@@ -10,7 +10,7 @@ const About = () => {
       <div className="text-center mx-20 mb-10">
         <p className="text-lg">
           I am an IT undergraduate at the University of Moratuwa with a GPA of
-          3.55. I enjoy solving problems and developing web applications. I have
+          3.56. I enjoy solving problems and developing web applications. I have
           experience with Java, C, JavaScript, Asp .NET, React.js, and Next.js
           as well as database management. I am a team player with strong time
           management skills, and I am always eager to learn and take on new
@@ -40,7 +40,7 @@ const About = () => {
               Management Systems (DBMS), and many more.
             </p>
             <p className="text-lg font-semibold text-neutral-100">
-              CGPA: 3.55 / 4.0
+              CGPA: 3.56 / 4.0
             </p>
           </div>
 
